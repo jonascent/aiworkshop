@@ -475,7 +475,7 @@ ADD FIELD "Terms" OF "Customer" AS character
   ORDER 150
 
 ADD FIELD "Discount" OF "Customer" AS integer 
-  FORMAT ">9%"
+  FORMAT ">>9%"
   INITIAL "0"
   LABEL "Discount"
   POSITION 16
